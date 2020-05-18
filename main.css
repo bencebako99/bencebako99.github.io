@@ -41,15 +41,8 @@ nav ul li a{
 p{
 	text-align: justify;
 }
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+a{
+	color:black;
 }
 
 footer{
