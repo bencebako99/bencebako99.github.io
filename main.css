@@ -29,7 +29,7 @@ nav ul li{
 	display: inline-block;
 	margin: 1%;
 	padding:1%;
-	width: 20%;
+	width: 9vw;
 	color:white;
 	text-align: center;
 	font-size: 1.25vw;
@@ -63,4 +63,5 @@ ol li{
 
 footer{
 	text-align: center;
+	font-size: 1.25vw;
 }
