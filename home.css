@@ -1,0 +1,81 @@
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidenav img{
+	height:240px;
+	width:160px;
+}
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+.main h1{
+	text-align: center;
+	font-size: 300%;
+}
+.textbox{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:10%;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 10px;
+	padding: 0.5%;
+	font-size: 1.25vw;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.textbox-large{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 10px;
+	padding: 0.5%;
+	font-size: 1.25vw;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	color:black;
+}
+ul li{
+	padding-bottom: 10px;
+}
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 10px;
+  font-size: 1.25vw;
+}
+.text-center{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	  background-color: #999966;
+}

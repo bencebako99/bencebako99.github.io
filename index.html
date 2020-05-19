@@ -2,20 +2,33 @@
 	<html>
 		<head>
 			<title> Webpage of Bence </title>
+			<link rel="stylesheet" type="text/css" href="home.css">
 		</head>
 		<body>
 
-			<header>
-				<nav>
-					<h1>My page</h1>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="tanulmanyok.html">Tanulmányok</a></li>
-					</ul>
-				</nav>
-			</header>
+				<div class="sidenav">
+					<a>Bakó Bence</a>
+					<img src="profil.jpg" alt="Profil">
+					<a href="index.html">Home</a>
+  					<a href="me.html">About me</a>
+  					<a href="tanulmanyok.html">Studies</a>
+				</div>
+				<div class="main">
+					<h1 style="padding-bottom: 100px">Welcome to my page!</h1>
+					<p class="textbox"> <a href="https://github.com/bencebako99">Github</a></p>
+					<p class="text-center" style="padding-top: 100px"> Send an email: </p>
+						<form class="text-center" action="mailto:bakobence19@gmail.com" method="post" enctype="text/plain">
+						Name:<br>
+						<input type="text" name="name"><br>
+						E-mail:<br>
+						<input type="text" name="mail"><br>
+						Comment:<br>
+						<input type="text" name="comment"><br><br>
+						<input type="submit" value="Send">
+						<input type="reset" value="Reset">
+						</form>
+				</div>
 
-			<footer>2020</footer>
 		</body>
 	</html>
 
